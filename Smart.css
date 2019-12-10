@@ -12,12 +12,16 @@ header {
     border-bottom: 1px solid #eeeeee;
     display: flex;
     align-items: center;
-}
-.top {
-    display: flex;
     justify-content: space-between;
-}
 
+}
+.Products span {
+    font-size: 13px;
+}
+.Products {
+    display: flex;
+    align-items: center;
+}
 .Products-more {
     background: rgb(173,0,42);
     color: white;
@@ -27,5 +31,11 @@ header {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
+    margin-left: 15px;
+    border-radius: 2px;
+    border: 1px solid #900323;
+}
+.logo {
+    width: 137px;
 }
 
