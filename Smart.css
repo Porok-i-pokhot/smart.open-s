@@ -1,6 +1,9 @@
 html {
     font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
-
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
 }
 body {
     margin: 0;
@@ -15,14 +18,14 @@ header {
     justify-content: space-between;
 
 }
-.Products span {
+.products span {
     font-size: 13px;
 }
-.Products {
+.products {
     display: flex;
     align-items: center;
 }
-.Products-more {
+.products-more {
     background: rgb(173,0,42);
     color: white;
     text-decoration: none;
@@ -38,4 +41,38 @@ header {
 .logo {
     width: 137px;
 }
+.all {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    max-width: 1000px;
+    padding: 0 50px;
+
+}
+.basic_information {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    align-content: flex-start;
+}
+.smartCloud {
+    width: 50%;
+
+}
+.laptop  {
+    width: 50%;
+    align-self: center;
+}
+.headline {
+    color: #c74e68
+}
+.error {
+    width: 50%;
+}
+.apologies,.basic_information {
+    line-height: 150%;
+}
+
+
+
 
