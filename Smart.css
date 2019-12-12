@@ -1,13 +1,16 @@
 html {
-    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-family: "Open Sans", Arial, Helvetica, Sans-Serif;
     box-sizing: border-box;
 }
+
 *, *:after, *:before {
     box-sizing: inherit;
 }
+
 body {
     margin: 0;
 }
+
 header {
     background: #f4f4f4;
     padding: 0 30px;
@@ -18,15 +21,18 @@ header {
     justify-content: space-between;
 
 }
+
 .products span {
     font-size: 13px;
 }
+
 .products {
     display: flex;
     align-items: center;
 }
+
 .products-more {
-    background: rgb(173,0,42);
+    background: rgb(173, 0, 42);
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -38,9 +44,11 @@ header {
     border-radius: 2px;
     border: 1px solid #900323;
 }
+
 .logo {
     width: 137px;
 }
+
 .all {
     display: flex;
     justify-content: center;
@@ -49,28 +57,50 @@ header {
     padding: 0 50px;
 
 }
+
 .basic_information {
     display: flex;
     flex-wrap: wrap;
     margin-right: 30px;
     align-content: flex-start;
 }
+
 .smartCloud {
     width: 50%;
 
 }
-.laptop  {
+
+.laptop {
     width: 50%;
     align-self: center;
 }
+
 .headline {
     color: #c74e68
 }
+
 .error {
     width: 50%;
 }
-.apologies,.basic_information {
+
+.apologies, .basic_information {
     line-height: 150%;
+}
+
+.mail-link {
+    background: url('mail.ico');
+}
+
+.telegram-link {
+    background: url('telegram_icon.ico');
+}
+.link-with-icon {
+    display: inline-block;
+    background-position: top left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    line-height: 30px;
 }
 
 
