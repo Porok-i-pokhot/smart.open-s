@@ -1,16 +1,14 @@
 html {
     font-family: "Open Sans", Arial, Helvetica, Sans-Serif;
+    color: #565656;
     box-sizing: border-box;
 }
-
 *, *:after, *:before {
     box-sizing: inherit;
 }
-
 body {
     margin: 0;
 }
-
 header {
     background: #f4f4f4;
     padding: 0 30px;
@@ -19,78 +17,69 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 .products span {
     font-size: 13px;
 }
-
 .products {
     display: flex;
     align-items: center;
 }
-
-.products-more {
-    background: rgb(173, 0, 42);
+.button-medium {
     color: white;
     text-decoration: none;
     display: inline-block;
     padding: 6px 12px;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 700;
     margin-left: 15px;
-    border-radius: 2px;
+    border-radius: 3px;
+}
+.button--danger {
+    font-weight: 700;
+    background: rgb(173, 0, 42);
     border: 1px solid #900323;
 }
-
+.button--info {
+    background: rgb(50, 118, 177);
+}
 .logo {
     width: 137px;
 }
-
 .all {
     display: flex;
     justify-content: center;
     margin: 40px auto 0;
     max-width: 1000px;
     padding: 0 50px;
-
+    align-items: flex-start;
 }
-
 .basic_information {
     display: flex;
     flex-wrap: wrap;
     margin-right: 30px;
     align-content: flex-start;
 }
-
 .smartCloud {
     width: 50%;
-
 }
-
+.headline {
+    font-size: 25px;
+    color: rgb(173, 0, 42);
+}
 .laptop {
     width: 50%;
     align-self: center;
 }
-
-.headline {
-    color: #c74e68
-}
-
 .error {
     width: 50%;
 }
-
 .apologies, .basic_information {
     line-height: 150%;
 }
-
 .mail-link {
     background: url('mail.ico');
 }
-
 .telegram-link {
     background: url('telegram_icon.ico');
 }
@@ -102,6 +91,48 @@ header {
     padding-left: 50px;
     line-height: 30px;
 }
+.feedback_form {
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    width: 1500px;
+    padding-bottom: 20px;
+}
+.feedback_form label, .feedback_form input {
+    display: block;
+    box-sizing: border-box;
+}
+.feedback_form button {
+    float: right;
+    margin-top: 20px;
+}
+.QR {
+    width: 150px;
+    height: 150px;
+    margin: 60px;
+}
+.apologies {
+    text-align: center;
+    padding: 15px 0;
+    background: #f4f4f4;
+    border-bottom: 1px solid #eeeeee;
+
+}
+.feedback_form label {
+    font-size: 13px;
+    padding: 10px 0 0;
+
+}
+.feedback_form input {
+    width: 100%;
+    padding-top: 15px;
+}
+form {
+    padding: 10px 15px;
+}
+
+
+
+
 
 
 
