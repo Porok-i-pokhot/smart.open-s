@@ -115,7 +115,7 @@ header {
 }
 .apologies {
     text-align: center;
-    padding: 15px 0;
+    padding: 15px;
     background: #f4f4f4;
     border-bottom: 1px solid #eeeeee;
 
@@ -153,10 +153,14 @@ form {
         flex-wrap: wrap;
     }
     .feedback_form {
-        margin-top: 70px;
+        margin-top: 30px;
     }
 }
 @media (max-width: 600px) {
+    .feedback_form {
+        width: auto;
+        flex-shrink: 1;
+    }
     .QR {
         width: 100%;
     }
@@ -164,9 +168,24 @@ form {
 }
 @media (max-width: 550px) {
     .all {
-        padding-right: 10px;
+        padding:0 10px;
     }
     .wtf {
         display: none;
+    }
+}
+@media (max-width: 480px) {
+    .text-div, .img-div {
+        width: 100%;
+    }
+    .button--info {
+        width: 100%;
+        margin-left: 0;
+    }
+    .feedback_form {
+        margin-bottom: 20px;
+    }
+    .all {
+        margin-top: 0;
     }
 }
