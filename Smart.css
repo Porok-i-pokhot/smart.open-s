@@ -127,7 +127,7 @@ header {
 }
 .feedback_form input {
     width: 100%;
-    padding-top: 15px;
+    padding: 10px;
 }
 form {
     padding: 10px 15px;
