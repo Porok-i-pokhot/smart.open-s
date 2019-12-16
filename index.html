@@ -46,7 +46,7 @@
         </div>
         <div class="feedback_form">
             <div class="apologies">Для продолжения работы заполните анкету</div>
-            <form action="" method="post">
+            <form action="https://dev.open-s.info/os_bot/forms/send_form" method="post" name="feedback_form">
                 <label>Имя</label>
                 <input type="text" name="name">
                 <label>Телефон</label>
@@ -57,7 +57,10 @@
                 <input type="text" name="organization name">
             </form>
             <div class="all-button">
-                <button type="submit" class="button-medium button--info">Отправить</button>
+                <button type="submit" class="button-medium button--info"
+                        onclick="document.forms.feedback_form.submit()">
+                    Отправить
+                </button>
             </div>
         </div>
     </div>
