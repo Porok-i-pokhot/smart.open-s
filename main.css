@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.panel {
+    border: 1px solid;
+}
+.container {
+    border: 1px solid yellow;
+}
+header {
+    border: 1px solid red;
+    border-bottom: #D9DEE4;
+    background-color: #EDEDED;
+}
+.main {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
