@@ -7,20 +7,19 @@ html, body {
     height: 100%;
     display: flex;
 }
-.container {
-    border: 1px solid yellow;
-}
+
 header {
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
     border-bottom: #D9DEE4;
     background-color: #EDEDED;
 }
 .main {
-    border: 1px solid;
     display: flex;
     width: calc(100% - 230px);
     flex-direction: column;
 }
+
 .panel {
     width: 230px;
     height: 100%;
@@ -82,6 +81,12 @@ a {
 .fa.fa-chevron-down {
     font-size: 12px;
 }
+.container {
+    background-color: #F7F7F7;
+    border: 1px solid red;
+    height: 100%;
+}
+
 
 
 
