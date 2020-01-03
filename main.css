@@ -115,12 +115,16 @@ i.dop-arrow {
     width: 28px;
     height: auto;
 }
-
+.human {
+    display: flex;
+    align-items: center;
+}
 .human .dop-arrow {
     font-size: 10px;
     color: #515356;
-
-
+}
+.container {
+    padding: 25px 20px;
 }
 /*.with-panel-collapsed .panel {*/
 /*    width: 70px;*/
