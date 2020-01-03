@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid #D9DEE4;
     background-color: #EDEDED;
+    padding: 10px;
 }
 .main {
     display: flex;
@@ -56,12 +57,15 @@ a {
 
 .logo {
     font-size: 22px;
+    margin-right: 2px;
 }
 
 .side-menu li {
     padding: 18px;
 }
-
+.side-menu a .dop-arrow {
+    padding-top: 5px;
+}
 .name {
     font-size: 22px;
     color: #ECF0F1;
@@ -93,7 +97,6 @@ a {
 
 i.dop-arrow {
     font-size: 12px;
-    margin-top: 6px;
 }
 
 .container {
@@ -104,29 +107,47 @@ i.dop-arrow {
 .toggle .dop {
     font-size: 26px;
     color: #5A738E;
-    margin: 15px;
 }
 
 .human .dop {
-    margin-top: 15px;
-    margin-right: 10px;
     color: #515356;
-    font-size: 20px;
+    font-size: 10px;
+    width: 28px;
+    height: auto;
 }
 
 .human .dop-arrow {
     font-size: 10px;
     color: #515356;
-}
 
-.dop {
-    margin-right: 6px;
-}
 
-.human {
-    margin-right: 10px;
 }
+/*.with-panel-collapsed .panel {*/
+/*    width: 70px;*/
+/*}*/
+/*.with-panel-collapsed .dop-arrow {*/
+/*    display: none;*/
+/*}*/
+/*.with-panel-collapsed .name {*/
+/*    display: none;*/
+/*}*/
 
+/*.with-panel-collapsed .side-menu a {*/
+/*    font-size: 10px;*/
+/*    text-align: center;*/
+/*}*/
+/*.with-panel-collapsed .main {*/
+/*    width: calc(100% - 70px);*/
+/*}*/
+/*.with-panel-collapsed .panel .side-menu li {*/
+/*    padding: 0;*/
+/*    text-align: center;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.with-panel-collapsed .panel .side-menu .dop {*/
+/*    display: block;*/
+/*    font-size: 22px;*/
+/*}*/
 
 
 
