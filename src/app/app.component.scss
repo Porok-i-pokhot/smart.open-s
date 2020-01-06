@@ -37,7 +37,10 @@ li {
 .side-menu {
   padding-left: 5px;
 }
-
+.side-menu > li > a {
+  padding-bottom: 6px;
+  display: block;
+}
 a {
   text-decoration: none;
 }
@@ -58,8 +61,8 @@ a {
   margin-right: 2px;
 }
 
-.side-menu li {
-  padding: 18px;
+.side-menu >li {
+  padding: 10px;
 }
 .side-menu a .dop-arrow {
   padding-top: 5px;
@@ -158,6 +161,40 @@ i.dop-arrow {
     display: block;
     font-size: 22px;
   }
+}
+.child-menu {
+  color: #E7E7E7;
+  padding-left: 23px;
+  font-size: 13px;
+}
+.child-menu li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.child-menu li:before {
+  background: #425668;
+  bottom: auto;
+  content: "";
+  height: 8px;
+  left: -14px;
+  margin-top: 4px;
+  position: absolute;
+  right: auto;
+  width: 8px;
+  z-index: 1;
+  border-radius: 50%;
+}
+.child-menu li:after {
+  border-left: 1px solid #425668;
+  bottom: 0;
+  content: "";
+  left: -10px;
+  position: absolute;
+  top: 0;
+
+
+
 }
 
 
