@@ -121,32 +121,41 @@ i.dop-arrow {
 .container {
   padding: 25px 20px;
 }
-/*.with-panel-collapsed .panel {*/
-/*    width: 70px;*/
-/*}*/
-/*.with-panel-collapsed .dop-arrow {*/
-/*    display: none;*/
-/*}*/
-/*.with-panel-collapsed .name {*/
-/*    display: none;*/
-/*}*/
 
-/*.with-panel-collapsed .side-menu a {*/
-/*    font-size: 10px;*/
-/*    text-align: center;*/
-/*}*/
-/*.with-panel-collapsed .main {*/
-/*    width: calc(100% - 70px);*/
-/*}*/
-/*.with-panel-collapsed .panel .side-menu li {*/
-/*    padding: 0;*/
-/*    text-align: center;*/
-/*    margin-bottom: 25px;*/
-/*}*/
-/*.with-panel-collapsed .panel .side-menu .dop {*/
-/*    display: block;*/
-/*    font-size: 22px;*/
-/*}*/
+.with-panel-collapsed {
+
+  .panel {
+    width: 70px;
+  }
+
+  .dop-arrow {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .side-menu a {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .main {
+    width: calc(100% - 70px);
+  }
+
+  .panel .side-menu li {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .panel .side-menu .dop {
+    display: block;
+    font-size: 22px;
+  }
+}
 
 
 
